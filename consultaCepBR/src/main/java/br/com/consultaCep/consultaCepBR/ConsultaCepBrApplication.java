@@ -8,6 +8,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 @FeignClient
 public class ConsultaCepBrApplication {
 	public static void main(String[] args) {
+		
 		SpringApplication.run(ConsultaCepBrApplication.class, args);
 	}
 
